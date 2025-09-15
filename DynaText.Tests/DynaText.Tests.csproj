@@ -25,6 +25,4 @@
 		</PackageReference>
 	</ItemGroup>
 
-	<Import Project="..\DTOMaker.Models.Shared\DTOMaker.Models.Shared.projitems" Label="Shared" />
-
 </Project>

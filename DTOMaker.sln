@@ -61,23 +61,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Tests", "Sandbox.Te
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DTOMaker.MemBlocks.Shared", "DTOMaker.MemBlocks.Shared\DTOMaker.MemBlocks.Shared.shproj", "{4AE6A305-935C-4344-A5A7-0554A2CCCFD4}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DTOMaker.Models.Shared", "DTOMaker.Models.Shared\DTOMaker.Models.Shared.shproj", "{3447BA3D-088A-4724-BE9D-037C0388B0DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaText.Tests", "DynaText.Tests\DynaText.Tests.csproj", "{FE740A1F-CF62-4ECB-B896-AC1169D27127}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaText.Benchmarks", "DynaText.Benchmarks\DynaText.Benchmarks.csproj", "{ADD285F9-874F-493D-BC4F-06FE0FF49149}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonNewtonSoft", "JsonNewtonSoft", "{E78920CA-2F19-4656-BD87-5C893C8734DD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOMaker.Runtime.JsonNewtonSoft", "DTOMaker.Runtime.JsonNewtonSoft\DTOMaker.Runtime.JsonNewtonSoft.csproj", "{224E1A80-C3E6-64F1-5F56-AC020D47329A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.JsonNewtonSoft", "Template.JsonNewtonSoft\Template.JsonNewtonSoft.csproj", "{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.JsonNewtonSoft.Tests", "Template.JsonNewtonSoft.Tests\Template.JsonNewtonSoft.Tests.csproj", "{21C6E32A-74F2-29B8-0104-93D8BC055B1F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOMaker.JsonNewtonSoft", "DTOMaker.JsonNewtonSoft\DTOMaker.JsonNewtonSoft.csproj", "{6FAF8BEB-249B-976E-1E62-CB2F453352D4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOMaker.JsonNewtonSoft.Tests", "DTOMaker.JsonNewtonSoft.Tests\DTOMaker.JsonNewtonSoft.Tests.csproj", "{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,26 +155,6 @@ Global
 		{ADD285F9-874F-493D-BC4F-06FE0FF49149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD285F9-874F-493D-BC4F-06FE0FF49149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD285F9-874F-493D-BC4F-06FE0FF49149}.Release|Any CPU.Build.0 = Release|Any CPU
-		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{224E1A80-C3E6-64F1-5F56-AC020D47329A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21C6E32A-74F2-29B8-0104-93D8BC055B1F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FAF8BEB-249B-976E-1E62-CB2F453352D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,12 +176,6 @@ Global
 		{5CBE97BA-6CBA-4758-83AF-286522F2F4BB} = {D2511C4B-C5B9-4DD4-B535-816A3056181E}
 		{AF5E10B1-3CB5-4C67-87C2-E8E8918CE3CD} = {EA84EF56-0D96-4A7A-9D2C-083AE6C49B62}
 		{4AE6A305-935C-4344-A5A7-0554A2CCCFD4} = {D2511C4B-C5B9-4DD4-B535-816A3056181E}
-		{3447BA3D-088A-4724-BE9D-037C0388B0DA} = {EA84EF56-0D96-4A7A-9D2C-083AE6C49B62}
-		{224E1A80-C3E6-64F1-5F56-AC020D47329A} = {E78920CA-2F19-4656-BD87-5C893C8734DD}
-		{508E8316-BF0B-DD8C-EABB-BB7D665ABCBF} = {E78920CA-2F19-4656-BD87-5C893C8734DD}
-		{21C6E32A-74F2-29B8-0104-93D8BC055B1F} = {E78920CA-2F19-4656-BD87-5C893C8734DD}
-		{6FAF8BEB-249B-976E-1E62-CB2F453352D4} = {E78920CA-2F19-4656-BD87-5C893C8734DD}
-		{02EC9D88-05C4-A0B4-D333-57DF6B40F1F6} = {E78920CA-2F19-4656-BD87-5C893C8734DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C984986-C2C9-4136-A2D4-1A5FE9BDF8F0}
@@ -223,15 +183,10 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		DTOMaker.MemBlocks.Shared\DTOMaker.MemBlocks.Shared.projitems*{021bff51-3d0f-4cbb-97b7-78942317f1d8}*SharedItemsImports = 5
 		DTOMaker.MemBlocks.Shared\DTOMaker.MemBlocks.Shared.projitems*{212174d6-311f-4ec6-a87b-e55e332daac3}*SharedItemsImports = 5
-		DTOMaker.Models.Shared\DTOMaker.Models.Shared.projitems*{3447ba3d-088a-4724-be9d-037c0388b0da}*SharedItemsImports = 13
 		DTOMaker.Core.Shared\DTOMaker.Core.Shared.projitems*{49579a6f-590a-4890-b152-2e0187ea3b06}*SharedItemsImports = 5
 		DTOMaker.MemBlocks.Shared\DTOMaker.MemBlocks.Shared.projitems*{4ae6a305-935c-4344-a5a7-0554a2cccfd4}*SharedItemsImports = 13
-		DTOMaker.Core.Shared\DTOMaker.Core.Shared.projitems*{6faf8beb-249b-976e-1e62-cb2f453352d4}*SharedItemsImports = 5
-		DTOMaker.Models.Shared\DTOMaker.Models.Shared.projitems*{80aae055-6b4b-42e4-b9a2-c80b84898edb}*SharedItemsImports = 5
-		DTOMaker.Models.Shared\DTOMaker.Models.Shared.projitems*{add285f9-874f-493d-bc4f-06fe0ff49149}*SharedItemsImports = 5
 		DTOMaker.Core.Shared\DTOMaker.Core.Shared.projitems*{af5e10b1-3cb5-4c67-87c2-e8e8918ce3cd}*SharedItemsImports = 13
 		DTOMaker.Core.Shared\DTOMaker.Core.Shared.projitems*{ec33243a-f088-4091-8212-d9c88a5427c6}*SharedItemsImports = 5
 		DTOMaker.MemBlocks.Shared\DTOMaker.MemBlocks.Shared.projitems*{ec33243a-f088-4091-8212-d9c88a5427c6}*SharedItemsImports = 5
-		DTOMaker.Models.Shared\DTOMaker.Models.Shared.projitems*{fe740a1f-cf62-4ecb-b896-ac1169d27127}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
